@@ -1,0 +1,84 @@
+2026-05-07 21:24:41,220 - SoftwareFJ - INFO - Clientes válidos creados exitosamente.
+2026-05-07 21:24:41,220 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,220 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:24:41,221 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,222 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:24:41,222 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-07 21:24:41,222 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:24:41,222 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,223 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-07 21:24:41,223 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,223 - SoftwareFJ - WARNING - Validación fallida: El nombre no puede estar vacío.
+2026-05-07 21:24:41,223 - SoftwareFJ - WARNING - Validación fallida: El documento debe ser numérico.
+2026-05-07 21:24:41,224 - SoftwareFJ - WARNING - Validación fallida: El correo no tiene un formato válido.
+2026-05-07 21:24:41,224 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:24:41,224 - SoftwareFJ - ERROR - Error al procesar reserva: El servicio 'Sala B' no está disponible.
+2026-05-07 21:24:41,224 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:24:41,225 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,225 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva: La capacidad de la sala debe ser mayor a 0.
+2026-05-07 21:24:41,225 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:24:41,225 - SoftwareFJ - INFO - Reserva cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:24:41,226 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Auditorio
+2026-05-07 21:33:00,459 - SoftwareFJ - INFO - Clientes válidos creados exitosamente.
+2026-05-07 21:33:00,459 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,459 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:33:00,459 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,459 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:33:00,459 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-07 21:33:00,459 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:33:00,460 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,460 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-07 21:33:00,460 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,460 - SoftwareFJ - WARNING - Validación fallida: El nombre no puede estar vacío.
+2026-05-07 21:33:00,460 - SoftwareFJ - WARNING - Validación fallida: El documento debe ser numérico.
+2026-05-07 21:33:00,461 - SoftwareFJ - WARNING - Validación fallida: El correo no tiene un formato válido.
+2026-05-07 21:33:00,461 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:33:00,461 - SoftwareFJ - ERROR - Error al procesar reserva: El servicio 'Sala B' no está disponible.
+2026-05-07 21:33:00,461 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:33:00,461 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,461 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva: La capacidad de la sala debe ser mayor a 0.
+2026-05-07 21:33:00,462 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:33:00,462 - SoftwareFJ - INFO - Reserva cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:33:00,462 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Auditorio
+2026-05-07 21:49:48,624 - SoftwareFJ - INFO - Clientes válidos creados exitosamente.
+2026-05-07 21:49:48,624 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,624 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:49:48,624 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,625 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:48,625 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-07 21:49:48,625 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:48,625 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,625 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-07 21:49:48,625 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,626 - SoftwareFJ - WARNING - Validación fallida: El nombre no puede estar vacío.
+2026-05-07 21:49:48,626 - SoftwareFJ - WARNING - Validación fallida: El documento debe ser numérico.
+2026-05-07 21:49:48,626 - SoftwareFJ - WARNING - Validación fallida: El correo no tiene un formato válido.
+2026-05-07 21:49:48,626 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:48,626 - SoftwareFJ - ERROR - Error al procesar reserva: El servicio 'Sala B' no está disponible.
+2026-05-07 21:49:48,626 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:48,627 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,627 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva: La capacidad de la sala debe ser mayor a 0.
+2026-05-07 21:49:48,627 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:48,627 - SoftwareFJ - INFO - Reserva cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:49:48,628 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Auditorio
+2026-05-07 21:49:53,800 - SoftwareFJ - INFO - Clientes válidos creados exitosamente.
+2026-05-07 21:49:53,800 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,801 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:49:53,801 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,801 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:53,801 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-07 21:49:53,801 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:53,801 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,801 - SoftwareFJ - INFO - Reserva confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-07 21:49:53,802 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,802 - SoftwareFJ - WARNING - Validación fallida: El nombre no puede estar vacío.
+2026-05-07 21:49:53,802 - SoftwareFJ - WARNING - Validación fallida: El documento debe ser numérico.
+2026-05-07 21:49:53,802 - SoftwareFJ - WARNING - Validación fallida: El correo no tiene un formato válido.
+2026-05-07 21:49:53,803 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:53,803 - SoftwareFJ - ERROR - Error al procesar reserva: El servicio 'Sala B' no está disponible.
+2026-05-07 21:49:53,803 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Maria Lopez
+2026-05-07 21:49:53,803 - SoftwareFJ - INFO - Iniciando procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,803 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva: La capacidad de la sala debe ser mayor a 0.
+2026-05-07 21:49:53,803 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
+2026-05-07 21:49:53,803 - SoftwareFJ - INFO - Reserva cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-07 21:49:53,804 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Auditorio
