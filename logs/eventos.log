@@ -82,3 +82,79 @@
 2026-05-07 21:49:53,803 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva para Juan Perez
 2026-05-07 21:49:53,803 - SoftwareFJ - INFO - Reserva cancelada para Juan Perez - Servicio: Sala de Juntas A
 2026-05-07 21:49:53,804 - SoftwareFJ - INFO - Reserva confirmada para Maria Lopez - Servicio: Auditorio
+2026-05-08 10:59:10,942 - SoftwareFJ - INFO - GestorSistema inicializado con éxito
+2026-05-08 10:59:10,943 - SoftwareFJ - INFO - Cliente registrado: Juan Perez (Doc: 12345678)
+2026-05-08 10:59:10,943 - SoftwareFJ - INFO - Cliente registrado: Maria Lopez (Doc: 87654321)
+2026-05-08 10:59:10,943 - SoftwareFJ - INFO - Clientes válidos creados y registrados exitosamente.
+2026-05-08 10:59:10,944 - SoftwareFJ - WARNING - Intento de registro fallido: El cliente con documento '12345678' ya está registrado en el sistema.
+2026-05-08 10:59:10,944 - SoftwareFJ - WARNING - Documento duplicado detectado: El cliente con documento '12345678' ya está registrado en el sistema.
+2026-05-08 10:59:10,944 - SoftwareFJ - WARNING - Nombre rechazado: Validación de nombre fallida: El nombre debe tener al menos 3 caracteres.
+2026-05-08 10:59:10,945 - SoftwareFJ - WARNING - Documento corto rechazado: Validación de documento fallida: El documento debe tener al menos 5 dígitos.
+2026-05-08 10:59:10,945 - SoftwareFJ - WARNING - Teléfono rechazado: Validación de teléfono fallida: El teléfono no puede exceder 15 dígitos.
+2026-05-08 10:59:10,946 - SoftwareFJ - INFO - Servicio registrado: Sala de Juntas A (Costo: $50000)
+2026-05-08 10:59:10,946 - SoftwareFJ - INFO - Servicio registrado: Laptop Dell (Costo: $20000)
+2026-05-08 10:59:10,946 - SoftwareFJ - INFO - Servicio registrado: Consultoría IT (Costo: $80000)
+2026-05-08 10:59:10,946 - SoftwareFJ - INFO - Servicios registrados exitosamente.
+2026-05-08 10:59:10,946 - SoftwareFJ - WARNING - Costo inválido rechazado: Validación de servicio fallida: El costo base debe ser mayor a 0. Costo recibido: 0
+2026-05-08 10:59:10,947 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 0a275fe5-a045-40e8-ad57-c10a59e5cbcb para Juan Perez
+2026-05-08 10:59:10,948 - SoftwareFJ - INFO - Reserva 0a275fe5-a045-40e8-ad57-c10a59e5cbcb confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-08 10:59:10,949 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 0a275fe5-a045-40e8-ad57-c10a59e5cbcb - Estado final: Confirmada
+2026-05-08 10:59:10,949 - SoftwareFJ - INFO - Reserva registrada: Cliente=Juan Perez, Servicio=Sala de Juntas A, Estado=Confirmada
+2026-05-08 10:59:10,950 - SoftwareFJ - INFO - Iniciando procesamiento de reserva b21a9705-2b02-423f-8a9e-7e2c6811e692 para Maria Lopez
+2026-05-08 10:59:10,950 - SoftwareFJ - INFO - Reserva b21a9705-2b02-423f-8a9e-7e2c6811e692 confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-08 10:59:10,951 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva b21a9705-2b02-423f-8a9e-7e2c6811e692 - Estado final: Confirmada
+2026-05-08 10:59:10,951 - SoftwareFJ - INFO - Reserva registrada: Cliente=Maria Lopez, Servicio=Laptop Dell, Estado=Confirmada
+2026-05-08 10:59:10,952 - SoftwareFJ - INFO - Iniciando procesamiento de reserva da3aebaf-991c-4f16-9e1d-9f5b443dfe7f para Juan Perez
+2026-05-08 10:59:10,952 - SoftwareFJ - INFO - Reserva da3aebaf-991c-4f16-9e1d-9f5b443dfe7f confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-08 10:59:10,952 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva da3aebaf-991c-4f16-9e1d-9f5b443dfe7f - Estado final: Confirmada
+2026-05-08 10:59:10,953 - SoftwareFJ - INFO - Reserva registrada: Cliente=Juan Perez, Servicio=Consultoría IT, Estado=Confirmada
+2026-05-08 10:59:10,953 - SoftwareFJ - INFO - Iniciando procesamiento de reserva d4f0a89c-d9e2-4560-9240-8da49bb47196 para Maria Lopez
+2026-05-08 10:59:10,954 - SoftwareFJ - ERROR - Servicio no disponible para reserva d4f0a89c-d9e2-4560-9240-8da49bb47196: El servicio 'Sala B' no está disponible para reservar.
+2026-05-08 10:59:10,954 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva d4f0a89c-d9e2-4560-9240-8da49bb47196 - Estado final: Pendiente
+2026-05-08 10:59:10,954 - SoftwareFJ - WARNING - Servicio no disponible: El servicio 'Sala B' no está disponible para reservar.
+2026-05-08 10:59:10,955 - SoftwareFJ - INFO - Iniciando procesamiento de reserva fddb2873-46aa-4708-aa95-0b91103a88a7 para Juan Perez
+2026-05-08 10:59:10,955 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva fddb2873-46aa-4708-aa95-0b91103a88a7: La capacidad de la sala debe ser mayor a 0.
+2026-05-08 10:59:10,955 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva fddb2873-46aa-4708-aa95-0b91103a88a7 - Estado final: Pendiente
+2026-05-08 10:59:10,955 - SoftwareFJ - WARNING - Datos inválidos: Error interno al procesar la reserva.
+2026-05-08 10:59:10,956 - SoftwareFJ - INFO - Reserva 0a275fe5-a045-40e8-ad57-c10a59e5cbcb cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-08 10:59:10,956 - SoftwareFJ - WARNING - No se puede re-confirmar: No se puede confirmar una reserva en estado: Confirmada
+2026-05-08 10:59:10,957 - SoftwareFJ - WARNING - No se puede cancelar dos veces: La reserva ya está cancelada.
+2026-05-08 10:59:10,958 - SoftwareFJ - INFO - Reserva 2647cf7c-fd3d-498f-884f-6ede42eb06a3 confirmada para Maria Lopez - Servicio: Auditorio Premium
+2026-05-09 11:18:50,022 - SoftwareFJ - INFO - GestorSistema inicializado con éxito
+2026-05-09 11:18:50,024 - SoftwareFJ - INFO - Cliente registrado: Juan Perez (Doc: 12345678)
+2026-05-09 11:18:50,024 - SoftwareFJ - INFO - Cliente registrado: Maria Lopez (Doc: 87654321)
+2026-05-09 11:18:50,024 - SoftwareFJ - INFO - Clientes válidos creados y registrados exitosamente.
+2026-05-09 11:18:50,025 - SoftwareFJ - WARNING - Intento de registro fallido: El cliente con documento '12345678' ya está registrado en el sistema.
+2026-05-09 11:18:50,025 - SoftwareFJ - WARNING - Documento duplicado detectado: El cliente con documento '12345678' ya está registrado en el sistema.
+2026-05-09 11:18:50,026 - SoftwareFJ - WARNING - Nombre rechazado: Validación de nombre fallida: El nombre debe tener al menos 3 caracteres.
+2026-05-09 11:18:50,026 - SoftwareFJ - WARNING - Documento corto rechazado: Validación de documento fallida: El documento debe tener al menos 5 dígitos.
+2026-05-09 11:18:50,026 - SoftwareFJ - WARNING - Teléfono rechazado: Validación de teléfono fallida: El teléfono no puede exceder 15 dígitos.
+2026-05-09 11:18:50,027 - SoftwareFJ - INFO - Servicio registrado: Sala de Juntas A (Costo: $50000)
+2026-05-09 11:18:50,027 - SoftwareFJ - INFO - Servicio registrado: Laptop Dell (Costo: $20000)
+2026-05-09 11:18:50,027 - SoftwareFJ - INFO - Servicio registrado: Consultoría IT (Costo: $80000)
+2026-05-09 11:18:50,027 - SoftwareFJ - INFO - Servicios registrados exitosamente.
+2026-05-09 11:18:50,028 - SoftwareFJ - WARNING - Costo inválido rechazado: Validación de servicio fallida: El costo base debe ser mayor a 0. Costo recibido: 0
+2026-05-09 11:18:50,028 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 14c92a08-41ef-4604-9607-d0cc7b8520ca para Juan Perez
+2026-05-09 11:18:50,028 - SoftwareFJ - INFO - Reserva 14c92a08-41ef-4604-9607-d0cc7b8520ca confirmada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-09 11:18:50,029 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 14c92a08-41ef-4604-9607-d0cc7b8520ca - Estado final: Confirmada
+2026-05-09 11:18:50,029 - SoftwareFJ - INFO - Reserva registrada: Cliente=Juan Perez, Servicio=Sala de Juntas A, Estado=Confirmada
+2026-05-09 11:18:50,031 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 5a04c8a7-4dd0-43ab-8b20-93c2953b4ea4 para Maria Lopez
+2026-05-09 11:18:50,032 - SoftwareFJ - INFO - Reserva 5a04c8a7-4dd0-43ab-8b20-93c2953b4ea4 confirmada para Maria Lopez - Servicio: Laptop Dell
+2026-05-09 11:18:50,032 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 5a04c8a7-4dd0-43ab-8b20-93c2953b4ea4 - Estado final: Confirmada
+2026-05-09 11:18:50,033 - SoftwareFJ - INFO - Reserva registrada: Cliente=Maria Lopez, Servicio=Laptop Dell, Estado=Confirmada
+2026-05-09 11:18:50,033 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 1a6d2859-1199-4fcf-8b06-2ca6f07bd7b5 para Juan Perez
+2026-05-09 11:18:50,034 - SoftwareFJ - INFO - Reserva 1a6d2859-1199-4fcf-8b06-2ca6f07bd7b5 confirmada para Juan Perez - Servicio: Consultoría IT
+2026-05-09 11:18:50,034 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 1a6d2859-1199-4fcf-8b06-2ca6f07bd7b5 - Estado final: Confirmada
+2026-05-09 11:18:50,035 - SoftwareFJ - INFO - Reserva registrada: Cliente=Juan Perez, Servicio=Consultoría IT, Estado=Confirmada
+2026-05-09 11:18:50,035 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 7ca42d5e-8d08-4502-8da2-1c9b8fd99dcf para Maria Lopez
+2026-05-09 11:18:50,035 - SoftwareFJ - ERROR - Servicio no disponible para reserva 7ca42d5e-8d08-4502-8da2-1c9b8fd99dcf: El servicio 'Sala B' no está disponible para reservar.
+2026-05-09 11:18:50,036 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 7ca42d5e-8d08-4502-8da2-1c9b8fd99dcf - Estado final: Pendiente
+2026-05-09 11:18:50,036 - SoftwareFJ - WARNING - Servicio no disponible: El servicio 'Sala B' no está disponible para reservar.
+2026-05-09 11:18:50,036 - SoftwareFJ - INFO - Iniciando procesamiento de reserva 862fdaeb-3655-4170-98c7-e3f0ed8ba721 para Juan Perez
+2026-05-09 11:18:50,036 - SoftwareFJ - CRITICAL - Error inesperado al procesar reserva 862fdaeb-3655-4170-98c7-e3f0ed8ba721: La capacidad de la sala debe ser mayor a 0.
+2026-05-09 11:18:50,037 - SoftwareFJ - DEBUG - Fin del intento de procesamiento de reserva 862fdaeb-3655-4170-98c7-e3f0ed8ba721 - Estado final: Pendiente
+2026-05-09 11:18:50,037 - SoftwareFJ - WARNING - Datos inválidos: Error interno al procesar la reserva.
+2026-05-09 11:18:50,037 - SoftwareFJ - INFO - Reserva 14c92a08-41ef-4604-9607-d0cc7b8520ca cancelada para Juan Perez - Servicio: Sala de Juntas A
+2026-05-09 11:18:50,038 - SoftwareFJ - WARNING - No se puede re-confirmar: No se puede confirmar una reserva en estado: Confirmada
+2026-05-09 11:18:50,039 - SoftwareFJ - WARNING - No se puede cancelar dos veces: La reserva ya está cancelada.
+2026-05-09 11:18:50,040 - SoftwareFJ - INFO - Reserva 2ab99694-a7c5-4513-9f2f-9bc894ba69d3 confirmada para Maria Lopez - Servicio: Auditorio Premium
